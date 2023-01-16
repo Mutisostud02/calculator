@@ -59,3 +59,7 @@ equals.addEventListener('click', () => {
    currentVal = parseInt(display.innerText);
     
 })
+
+clear.addEventListener('click',() => {
+   display.textContent = '';
+})
