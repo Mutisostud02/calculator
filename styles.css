@@ -1,0 +1,44 @@
+*,*::after,*::before{
+ box-sizing: border-box;
+ border:1px black solid;
+}
+
+body{
+    height: 100vh;
+    width:100vw; 
+}
+ 
+.calculator{
+    
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    height: 550px;
+    width: 450px;
+    gap:5px;
+    margin: 80px auto 10px;
+    
+    padding-top: 25px;
+    padding-left: 25px;
+    flex: auto;
+    background-color: rgb(63, 58, 58);
+}
+.display{
+    height: 80px;
+    width:390px;
+    padding:auto;
+    background-color: azure;
+}
+.button {
+    background-color: azure;
+  height: 70px;
+  width: 70px;
+  padding: 45px;
+ 
+}
+.button:hover{
+    scale:1.03;
+}
+.button:active{
+    scale:0.97;
+}
